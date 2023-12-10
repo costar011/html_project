@@ -22,9 +22,8 @@ h1 {
   text-shadow: 3px 3px 3px #000;
   text-align: center;
   transition: color 0.5s ease-in-out;
-  border-bottom: 3px solid #000;
+  border-bottom: 5px solid #000;
 }
-
 
 .form,
 .greeting {
@@ -100,10 +99,25 @@ h1 {
   }
 }
 
+.tag {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.tag ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 a {
+  margin: 0 0 40px 0;
   text-align: center;
   text-decoration: none;
   color: #ffffff;
-  background: linear-gradient(#64a0ff, #6482ff, #5050ff, #0000ff);
-  font-size: 20px;
+  background: linear-gradient(#00F5FF, #00D7FF, #00C3FF, #00A5FF);
+  border-radius: 5px;
 }
