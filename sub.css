@@ -1,0 +1,15 @@
+a {
+    width: 150px;
+    height: 30px;
+  
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    background: linear-gradient(#00f5ff, #00d7ff, #00c3ff, #00a5ff);
+  
+    float: right;
+    border-radius: 15px;
+    margin-left: 60px;
+  }
