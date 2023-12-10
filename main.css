@@ -1,5 +1,5 @@
 body {
-  background-color: #87CEFA;
+  background-color: #87cefa;
 }
 
 .info {
@@ -19,15 +19,12 @@ body {
 h1 {
   color: #ffffff;
   font-size: 100px;
-  text-shadow: 2px 2px 2px #000;
+  text-shadow: 3px 3px 3px #000;
   text-align: center;
   transition: color 0.5s ease-in-out;
-  border-bottom: 2px solid #000;
+  border-bottom: 3px solid #000;
 }
 
-.clicked {
-  color: #8af9ff;
-}
 
 .form,
 .greeting {
@@ -61,7 +58,7 @@ h1 {
 .showing {
   display: block;
   color: #ffffff;
-  font-size: 34px;
+  font-size: 35px;
   margin-top: -50px;
   animation: textShadow 1.5s ease-in infinite;
 }
@@ -103,46 +100,10 @@ h1 {
   }
 }
 
-.toDoForm__input {
-  border: none;
-  background-color: transparent;
-  padding: 20px 100px;
-  width: 300px;
-  color: #ffffff;
-  vertical-align: middle;
-  font-size: 20px;
-  text-align: center;
-  animation: fadeText 1s linear infinite;
-}
-
-.toDoForm__input::placeholder {
-  font-size: 20px;
-  text-align: center;
-  color: #ffffff;
-  font-weight: bold;
-  text-shadow: 3px 3px 3px black;
-}
-
-.toDoList {
-  list-style: none;
-}
-
-.toDoList button {
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-  font-size: 22px;
-  animation: textShadow2 1.3s infinite;
-}
-
-.toDoList li {
-  color: #ffffff;
-  font-size: 30px;
-}
-
 a {
   text-align: center;
   text-decoration: none;
   color: #ffffff;
-  background: linear-gradient(#64A0FF, #6482FF, #5050FF,  #0000FF);
+  background: linear-gradient(#64a0ff, #6482ff, #5050ff, #0000ff);
+  font-size: 20px;
 }
