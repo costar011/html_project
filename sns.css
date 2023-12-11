@@ -1,0 +1,40 @@
+a {
+  width: 150px;
+  height: 30px;
+
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
+  background: linear-gradient(#323232, #a0a0a0, #505050, #828282);
+
+  float: right;
+  border-radius: 15px;
+  margin-left: 60px;
+}
+
+.info {
+  width: 1250px;
+  height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info h1 {
+  color: #000;
+  font-size: 100px;
+  text-shadow: 5px 3px 3px #8c8c8c;
+  text-align: center;
+  transition: color 0.5s ease-in-out;
+  border-bottom: 3px solid #000;
+}
+
+.info a {
+  width: 200px;
+  margin: 20px;
+  background: linear-gradient(#1E90FF, #00AFFF, #0A6EFF, #2828CD);
+}

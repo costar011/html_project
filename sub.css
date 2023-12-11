@@ -7,7 +7,7 @@ a {
   text-decoration: none;
   color: #fff;
   text-shadow: 2px 2px 2px #000;
-  background: linear-gradient(#6e6e6e, #505050, #3c3c3c, #282828);
+  background: linear-gradient(#323232, #a0a0a0, #505050, #828282);
 
   float: right;
   border-radius: 15px;
@@ -31,7 +31,7 @@ input[type="text"],
 select,
 textarea {
   width: 100%;
-  padding: 12px;
+  padding: 15px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
