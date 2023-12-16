@@ -44,9 +44,11 @@ a {
 .body .intro h2 {
   font-size: 20px;
 }
+
+
 .img {
   width: 800px;
-  height: 600px;
+  height: 550px;
 
   background-image: url("https://images.unsplash.com/photo-1631624215749-b10b3dd7bca7?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 
@@ -55,5 +57,5 @@ a {
   filter: drop-shadow(10px 6px 6px #3c3c3c);
   border-radius: 15px;
   
-  margin: 0 0 0 80px;
+  margin: 0 0 0 60px;
 }
